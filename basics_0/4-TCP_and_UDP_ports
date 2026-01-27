@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo lsof -i -n -P | grep LISTEN
+netstat -lp
